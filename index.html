@@ -24,7 +24,7 @@
             <input type="password" class="input" id="password">
             <span data-placeholders="Password"></span>
         </div>
-        <p>Don't Have Account <a href="#">sign up</a></p>
+        <p class="p">Don't Have Account <a href="#">sign up</a></p>
 
         <input type="submit" class="btn-submit" value="login">
     </form>
@@ -42,9 +42,9 @@
                 $(this).removeClass("focus");
 
                 if($("#username").val()!="" && $("#password").val()!="")
-                $("#logo").addClass("change-color");
-                else
-                $("#logo").removeClass("change-color");
+                    $("#logo").addClass("change-color");
+                else 
+                    $("#logo").removeClass("change-color");
             });
         });
     </script>
