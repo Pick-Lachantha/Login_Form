@@ -128,11 +128,18 @@ body{
     font-size:  16px;
     margin: 20px 0;
 }
-.social-icon{
+.social-icon a{
     color: #fff;
     font-size: 24px;
     margin-left: 10px;
+    text-decoration: none;
+
+    transition: .5s ease;
+    cursor: pointer;
 }
 .social-icon a:hover{
-    
+    transform: scale(1.2);
+}
+.container .login-section{
+    position: absolute;
 }
