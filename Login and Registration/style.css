@@ -23,6 +23,8 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
+    background-color: red;
 }
 
 .navbar a{
@@ -85,4 +87,15 @@ body{
 }
 .search-bar button i {
     font-size: 22px;
+}
+/*<!--Login Form Creation-->*/
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 75%;
+    height: 550px;
+    margin-top: 20px;
 }
