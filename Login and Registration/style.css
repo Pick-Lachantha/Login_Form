@@ -231,5 +231,7 @@ body{
     box-shadow: rgb(0,0,0,0.4);
 }
 .create-account{
-    
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
 }
